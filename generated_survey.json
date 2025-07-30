@@ -1,0 +1,20 @@
+{
+  "surveyTitle": "Sample Survey",
+  "questions": [
+    {
+      "questionType": "rating",
+      "questionText": "How satisfied are you with our service?",
+      "options": [
+        {"value": 1, "label": "Very Dissatisfied"},
+        {"value": 2, "label": "Dissatisfied"},
+        {"value": 3, "label": "Neutral"},
+        {"value": 4, "label": "Satisfied"},
+        {"value": 5, "label": "Very Satisfied"}
+      ]
+    },
+    {
+      "questionType": "text",
+      "questionText": "Please share any additional feedback."
+    }
+  ]
+}
