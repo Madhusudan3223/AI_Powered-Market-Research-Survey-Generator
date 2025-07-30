@@ -1,7 +1,7 @@
 # 🤖 SmartSurveyOps
 AI-Powered Dynamic Survey Generator using Google Gemini API
 
-SmartSurveyOps is an intelligent, real-time survey generation tool powered by Google’s Gemini API. Designed for modern research, marketing, and customer insight teams, it creates contextual, JSON-formatted surveys with a single prompt — saving time and enhancing flexibility.
+SmartSurveyOps is an intelligent, real-time survey generation tool powered by Google’s Gemini API. Designed for modern research, marketing, and customer insight teams, it creates contextual, JSON-formatted surveys with a single prompt  saving time and enhancing flexibility.
 
 ---
 
