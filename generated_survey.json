@@ -1,4 +1,6 @@
-{
+import json
+
+sample_survey = {
   "surveyTitle": "Sample Survey",
   "questions": [
     {
@@ -18,3 +20,8 @@
     }
   ]
 }
+
+with open("generated_survey.json", "w") as f:
+    json.dump(sample_survey, f, indent=4)
+
+print("Sample generated_survey.json file created!")
