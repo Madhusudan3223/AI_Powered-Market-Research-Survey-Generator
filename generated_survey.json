@@ -1,11 +1,31 @@
-import json
-
-sample_survey = {
-  "surveyTitle": "Sample Survey",
+{
+  "surveyTitle": "E-commerce Customer Satisfaction Survey",
   "questions": [
     {
       "questionType": "rating",
-      "questionText": "How satisfied are you with our service?",
+      "questionText": "How satisfied were you with the overall shopping experience on our website?",
+      "options": [
+        {"value": 1, "label": "Very Dissatisfied"},
+        {"value": 2, "label": "Dissatisfied"},
+        {"value": 3, "label": "Neutral"},
+        {"value": 4, "label": "Satisfied"},
+        {"value": 5, "label": "Very Satisfied"}
+      ]
+    },
+    {
+      "questionType": "rating",
+      "questionText": "How easy was it to find the products you were looking for?",
+      "options": [
+        {"value": 1, "label": "Very Difficult"},
+        {"value": 2, "label": "Difficult"},
+        {"value": 3, "label": "Neutral"},
+        {"value": 4, "label": "Easy"},
+        {"value": 5, "label": "Very Easy"}
+      ]
+    },
+    {
+      "questionType": "rating",
+      "questionText": "How satisfied were you with the speed of delivery?",
       "options": [
         {"value": 1, "label": "Very Dissatisfied"},
         {"value": 2, "label": "Dissatisfied"},
@@ -16,12 +36,18 @@ sample_survey = {
     },
     {
       "questionType": "text",
-      "questionText": "Please share any additional feedback."
+      "questionText": "Is there anything else you would like to share about your experience?"
+    },
+    {
+      "questionType": "multipleChoice",
+      "questionText": "How likely are you to recommend our website to a friend or colleague?",
+      "options": [
+        {"value": 1, "label": "Not at all likely"},
+        {"value": 2, "label": "Unlikely"},
+        {"value": 3, "label": "Neutral"},
+        {"value": 4, "label": "Likely"},
+        {"value": 5, "label": "Very likely"}
+      ]
     }
   ]
 }
-
-with open("generated_survey.json", "w") as f:
-    json.dump(sample_survey, f, indent=4)
-
-print("Sample generated_survey.json file created!")
