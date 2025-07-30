@@ -37,7 +37,7 @@ Check out the live app running on Hugging Face Spaces:
 
 1. Authenticate using your Gemini API key.  
 2. Provide a prompt that describes the type of survey you need.  
-3. The Gemini model generates a JSON‑formatted survey.  
+3. The Gemini model generates a JSON formatted survey.  
 4. Optionally save the output or integrate it with your pipeline.
 
 ---
