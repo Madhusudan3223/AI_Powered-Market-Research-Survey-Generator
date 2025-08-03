@@ -24,6 +24,9 @@ Check out the live app running on Hugging Face Spaces:
 **[SmartSurveyOps Demo — Try it now!](https://huggingface.co/spaces/madhumandal/SmartSurveyOps)**
 
 ---
+![Capgemini Application Note](assets/capgemini_application_note.png)
+
+---
 
 ## 💼 Use Cases
 
