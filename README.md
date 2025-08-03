@@ -24,7 +24,12 @@ Check out the live app running on Hugging Face Spaces:
 **[SmartSurveyOps Demo — Try it now!](https://huggingface.co/spaces/madhumandal/SmartSurveyOps)**
 
 ---
-!(Screenshot (150).PNG)
+## 🖼️ Demo Screenshot
+
+Here’s a preview of the AI-Powered Market Research Survey Generator UI:
+
+![Survey Screenshot](https://github.com/Madhusudan3223/AI_Powered-Market-Research-Survey-Generator/blob/main/Screenshot%20(150).PNG?raw=true)
+
 
 ---
 
